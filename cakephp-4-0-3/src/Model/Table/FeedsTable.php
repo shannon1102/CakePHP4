@@ -11,8 +11,6 @@ use Cake\Validation\Validator;
 /**
  * Feeds Model
  *
- * @property \App\Model\Table\UsersTable&\Cake\ORM\Association\BelongsTo $Users
- *
  * @method \App\Model\Entity\Feed get($primaryKey, $options = [])
  * @method \App\Model\Entity\Feed newEntity($data = null, array $options = [])
  * @method \App\Model\Entity\Feed[] newEntities(array $data, array $options = [])
@@ -37,11 +35,6 @@ class FeedsTable extends Table
         $this->setTable('feeds');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-
-        $this->belongsTo('Users', [
-            'foreignKey' => 'user_id',
-            'joinType' => 'INNER',
-        ]);
     }
 
     /**
@@ -58,42 +51,20 @@ class FeedsTable extends Table
 
         $validator
             ->scalar('name')
-            ->allowEmptyString('name');
-
-        $validator
-            ->scalar('image_file_name')
-            ->allowEmptyFile('image_file_name');
-
-        $validator
-            ->scalar('video_file_name')
-            ->allowEmptyFile('video_file_name');
+            ->maxLength('name', 255)
+            ->requirePresence('name', 'create')
+            ->notEmptyString('name');
 
         $validator
             ->scalar('message')
-            ->allowEmptyString('message');
-
-        $validator
-            ->dateTime('update_at')
-            ->allowEmptyDateTime('update_at');
+            ->maxLength('message', 255)
+            ->requirePresence('message', 'create')
+            ->notEmptyString('message');
 
         $validator
             ->dateTime('create_at')
-            ->allowEmptyDateTime('create_at');
+            ->notEmptyDateTime('create_at');
 
         return $validator;
-    }
-
-    /**
-     * Returns a rules checker object that will be used for validating
-     * application integrity.
-     *
-     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
-     * @return \Cake\ORM\RulesChecker
-     */
-    public function buildRules(RulesChecker $rules): RulesChecker
-    {
-        $rules->add($rules->existsIn(['user_id'], 'Users'));
-
-        return $rules;
     }
 }

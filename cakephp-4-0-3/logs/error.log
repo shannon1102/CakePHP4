@@ -1,13 +1,24 @@
-2020-02-24 07:19:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
-Exception Attributes: array (
-  'class' => 'Webroot',
-  'plugin' => NULL,
-  'prefix' => NULL,
-  '_ext' => NULL,
-)
+2020-05-14 08:58:36 Error: [PDOException] SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php on line 102
 Stack Trace:
-- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
-- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php:102
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:391
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:500
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:277
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1659
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1247
+- /var/www/html/vendor/cakephp/cakephp/src/Datasource/Paginator.php:208
+- /var/www/html/vendor/cakephp/cakephp/src/Datasource/Paginator.php:177
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php:201
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:783
+- /var/www/html/src/Controller/FeedsController.php:22
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
@@ -15,7 +26,7 @@ Stack Trace:
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
 - /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
-- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
 - /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
@@ -25,45 +36,14 @@ Stack Trace:
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
 - /var/www/html/webroot/index.php:40
 
-Request URL: /webroot/index.ph
-Client IP: 172.18.0.1
+Request URL: /feeds
+Client IP: 172.28.0.1
 
 
-2020-02-24 07:19:55 Error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+2020-05-14 09:14:12 Error: [Cake\Controller\Exception\MissingActionException] Action FeedsController::feed() could not be found, or is not accessible. in /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
 Exception Attributes: array (
-  'class' => 'Webroot',
-  'plugin' => NULL,
-  'prefix' => NULL,
-  '_ext' => NULL,
-)
-Stack Trace:
-- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
-- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
-- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
-- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
-- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
-- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
-- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
-- /var/www/html/webroot/index.php:40
-
-Request URL: /webroot/index.ph
-Client IP: 172.18.0.1
-
-
-2020-05-06 03:37:14 Error: [Cake\Controller\Exception\MissingActionException] Action TagsController::users() could not be found, or is not accessible. in /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
-Exception Attributes: array (
-  'controller' => 'TagsController',
-  'action' => 'users',
+  'controller' => 'FeedsController',
+  'action' => 'feed',
   'prefix' => '',
   'plugin' => NULL,
 )
@@ -87,20 +67,118 @@ Stack Trace:
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
 - /var/www/html/webroot/index.php:40
 
-Request URL: /tags/users
-Client IP: 172.18.0.1
+Request URL: /feeds/feed
+Client IP: 172.28.0.1
 
 
-2020-05-06 04:16:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Feed could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+2020-05-14 09:26:39 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token body in /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 236
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:128
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-14 09:50:58 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token body in /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 236
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:128
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/index
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-14 10:38:15 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-14 10:38:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-14 10:38:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-14 10:38:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-14 11:07:41 Error: [Cake\Controller\Exception\MissingActionException] Action FeedsController::delete() could not be found, or is not accessible. in /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
 Exception Attributes: array (
-  'class' => 'Feed',
+  'controller' => 'FeedsController',
+  'action' => 'delete',
+  'prefix' => '',
   'plugin' => NULL,
-  'prefix' => NULL,
-  '_ext' => NULL,
 )
 Stack Trace:
-- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
-- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
@@ -118,7 +196,8 @@ Stack Trace:
 - /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
 - /var/www/html/webroot/index.php:40
 
-Request URL: /feed
-Client IP: 172.18.0.1
+Request URL: /feeds/delete/1
+Referer URL: http://localhost:1236/feeds/index
+Client IP: 172.28.0.1
 
 

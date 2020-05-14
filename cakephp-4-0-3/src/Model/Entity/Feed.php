@@ -9,15 +9,9 @@ use Cake\ORM\Entity;
  * Feed Entity
  *
  * @property int $id
- * @property string|null $name
- * @property int $user_id
- * @property string|null $image_file_name
- * @property string|null $video_file_name
- * @property string|null $message
- * @property \Cake\I18n\FrozenTime|null $update_at
- * @property \Cake\I18n\FrozenTime|null $create_at
- *
- * @property \App\Model\Entity\User $user
+ * @property string $name
+ * @property string $message
+ * @property \Cake\I18n\FrozenTime $create_at
  */
 class Feed extends Entity
 {
@@ -32,12 +26,7 @@ class Feed extends Entity
      */
     protected $_accessible = [
         'name' => true,
-        'user_id' => true,
-        'image_file_name' => true,
-        'video_file_name' => true,
         'message' => true,
-        'update_at' => true,
         'create_at' => true,
-        'user' => true,
     ];
 }

@@ -47,7 +47,7 @@ return [
             'username' => 'root',
             'password' => 'rootpassword',
 
-            'database' => 'ecc',
+            'database' => 'simple_chat_system',
             /**
              * If not using the default 'public' schema with the PostgreSQL driver
              * set it here.
@@ -64,11 +64,11 @@ return [
          * The test connection is used during the test suite.
          */
         'test' => [
-            'host' => 'mysql',
-            'port' => '3306',
-            'username' => 'root',
-            'password' => 'rootpassword',
-            'database' => 'ecc',
+            'host' => 'localhost',
+            //'port' => 'non_standard_port_number',
+            'username' => 'my_app',
+            'password' => 'secret',
+            'database' => 'test_myapp',
             //'schema' => 'myapp',
         ],
     ],

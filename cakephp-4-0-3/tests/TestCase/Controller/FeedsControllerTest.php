@@ -23,7 +23,6 @@ class FeedsControllerTest extends TestCase
      */
     protected $fixtures = [
         'app.Feeds',
-        'app.Users',
     ];
 
     /**
