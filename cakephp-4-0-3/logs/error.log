@@ -1179,3 +1179,47 @@ Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
 
 
 
+2020-05-15 06:13:28 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token body in /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 236
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:128
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/test
+Referer URL: http://localhost:1236/feeds/test
+Client IP: 172.28.0.1
+
+
+2020-05-15 06:25:15 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token body in /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 236
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:128
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/test
+Referer URL: http://localhost:1236/feeds/test
+Client IP: 172.28.0.1
+
+
