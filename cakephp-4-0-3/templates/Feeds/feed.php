@@ -4,7 +4,9 @@
  * @var \App\Model\Entity\Feed $feed
  */
 ?>
-    <?= $this->Form->create($feed) ?>
+     <!-- in order to take advantage of the FormHelper -->  
+    <?= $this->Form->create($feedData)//create a form for an entity ,the context for which the form is being defined,feedData is a entity?> 
+    
     <legend><?= __('Chat') ?></legend>
      <?php
                     echo $this->Form->control('name');
@@ -15,12 +17,9 @@
     <?= $this->Form->end() ?>
 <table>
 <tr>
-<th>Name            </th>
-&nbsp;
-<th>Message         </th>
-&nbsp;
-<th>Date            </th>
-<br>
+    <th>Name </th>
+    <th>Message </th>
+    <th>Date </th>
 </tr>
 <?php foreach ($loadMess as $feed): ?>
 <tr>
