@@ -1,0 +1,748 @@
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:25 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-05-18 04:24:26 Warning: Warning (2): preg_match(): Unknown modifier 'c' in [/var/www/html/vendor/cakephp/cakephp/src/Console/Exception/MissingOptionException.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+preg_match - [internal], line ??
+Cake\Console\Exception\MissingOptionException::findClosestItem() - CORE/src/Console/Exception/MissingOptionException.php, line 97
+Cake\Console\Exception\MissingOptionException::getFullMessage() - CORE/src/Console/Exception/MissingOptionException.php, line 68
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 160
+[main] - ROOT/bin/cake.php, line 12
+
+
+

@@ -51,19 +51,21 @@ class FeedsTable extends Table
 
         $validator
             ->scalar('name')
-            ->maxLength('name', 255)
             ->requirePresence('name', 'create')
             ->notEmptyString('name');
 
         $validator
             ->scalar('message')
-            ->maxLength('message', 255)
-            ->requirePresence('message', 'create')//equire a field to be present under certain conditions only
+            ->requirePresence('message', 'create')
             ->notEmptyString('message');
 
         $validator
-            ->dateTime('create_at');
-           // ->notEmptyDateTime('create_at');
+            ->dateTime('create_at')
+            ->allowEmptyDateTime('create_at');
+
+        $validator
+            ->dateTime('update_at')
+            ->allowEmptyDateTime('update_at');
 
         return $validator;
     }

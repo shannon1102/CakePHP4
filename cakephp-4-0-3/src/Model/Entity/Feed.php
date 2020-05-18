@@ -11,7 +11,8 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $name
  * @property string $message
- * @property \Cake\I18n\FrozenTime $create_at
+ * @property \Cake\I18n\FrozenTime|null $create_at
+ * @property \Cake\I18n\FrozenTime|null $update_at
  */
 class Feed extends Entity
 {
@@ -28,5 +29,6 @@ class Feed extends Entity
         'name' => true,
         'message' => true,
         'create_at' => true,
+        'update_at' => true,
     ];
 }
