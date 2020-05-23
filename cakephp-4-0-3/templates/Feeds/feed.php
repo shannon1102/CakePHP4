@@ -7,7 +7,9 @@
     <?= $this->Form->create()//create a form for an entity ,the context for which the form is being defined,feedData is a entity?> 
     <legend><?= __('Chat') ?></legend>
      <?php
-                    echo $this->Form->control('name');
+                    echo $this->Form->control('name',['default'=>$username]);
+                    // echo $email;
+                    // echo $username;
                     echo $this->Form->control('message');
                  
     ?>

@@ -35,19 +35,19 @@ class UsersController extends AppController
     {
         $ipEmail= $this->request->getData('email');
         $ipPass= $this->request->getData('password');
-        
-        
+
+        $session = $this->getRequest()->getSession();
+
         if($this->request->is('post'))
         {
             $user = $this->Users->find('all', ['conditions' => ['Users.email'=>$ipEmail, 'Users.password'=>$ipPass]])->first();
             if($user != NULL)
             {
-                // $infor = $user->toArray();
-                // $infor['email'];
-                // array_push($this->mySession,$infor['name']);
-                // // debug($this->mySession);
-                // // exit;
-                 return $this->redirect(["controller"=>"Feeds","action"=>"feed"]);              
+                 $haha =$user->toArray();
+                 $loggedName= $haha['name'];
+                 $session->write('email',$ipEmail);
+                 $session->write('username',$loggedName);
+                return $this->redirect(["controller"=>"Feeds","action"=>"feed"]);              
             }
             else 
             {
@@ -55,10 +55,12 @@ class UsersController extends AppController
                 return $this->redirect(["controller"=>"Users","action"=>"login"]);
             }
         }
-        $this->set(compact(['ipEmail','ipPass']));
+       // $this->set(compact(['ipEmail','ipPass']));
     }
     public function logout()
     {
+        $session = $this->getRequest()->getSession();
+        $session->destroy();
         return $this->redirect(["controller"=>"Users","action"=>"login"]);
     }
  

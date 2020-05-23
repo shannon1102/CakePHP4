@@ -5329,3 +5329,302 @@ Request URL: /css/milligram.min.css.map
 Client IP: 172.28.0.1
 
 
+2020-05-23 01:32:22 Error: [PDOException] SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php on line 102
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php:102
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:391
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:500
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:277
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1659
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1247
+- /var/www/html/src/Controller/FeedsController.php:44
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Caused by: [PDOException] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php on line 102
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php:102
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:391
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:500
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:277
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1659
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1247
+- /var/www/html/src/Controller/FeedsController.php:44
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 01:32:30 Error: [PDOException] SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php on line 102
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php:102
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:391
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:500
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:277
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1659
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1247
+- /var/www/html/src/Controller/FeedsController.php:44
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Caused by: [PDOException] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php on line 102
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php:102
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:391
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:500
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:277
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1659
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1247
+- /var/www/html/src/Controller/FeedsController.php:44
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 01:36:45 Error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /login
+Client IP: 172.28.0.1
+
+
+2020-05-23 02:38:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class User could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'User',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /user/
+Client IP: 172.28.0.1
+
+
+2020-05-23 02:38:46 Error: [Cake\Http\Exception\MissingControllerException] Controller class User could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'User',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /user/login
+Client IP: 172.28.0.1
+
+
+2020-05-23 03:11:11 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::index() could not be found, or is not accessible. in /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/index
+Client IP: 172.28.0.1
+
+
+2020-05-23 03:11:23 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::index() could not be found, or is not accessible. in /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/
+Client IP: 172.28.0.1
+
+
