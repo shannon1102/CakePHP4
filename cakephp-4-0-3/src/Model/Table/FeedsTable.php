@@ -35,14 +35,12 @@ class FeedsTable extends Table
         $this->setTable('feeds');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
+
+        $this->belongsTo('Users', [
+            'foreignKey' => 'user_id',
+        ]);
     }
 
-    /**
-     * Default validation rules.
-     *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
-     */
     public function validationDefault(Validator $validator): Validator
     {
         $validator
@@ -51,13 +49,20 @@ class FeedsTable extends Table
 
         $validator
             ->scalar('name')
+            ->maxLength('name', 255)
             ->requirePresence('name', 'create')
             ->notEmptyString('name');
 
         $validator
+            ->scalar('imagefilename')
+            // ->maxLength('imagefilename', 255)
+            // // ->requirePresence('imagefilename', 'create')
+            ->allowEmptyFile('imagefilename');
+
+        $validator
             ->scalar('message')
             ->requirePresence('message', 'create')
-            ->notEmptyString('message');
+            ->allowEmptyString('message');
 
         $validator
             ->dateTime('create_at')
@@ -68,5 +73,11 @@ class FeedsTable extends Table
             ->allowEmptyDateTime('update_at');
 
         return $validator;
+    }
+    public function buildRules(RulesChecker $rules): RulesChecker
+    {
+        $rules->add($rules->existsIn(['user_id'], 'Users'));
+
+        return $rules;
     }
 }

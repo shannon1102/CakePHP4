@@ -5628,3 +5628,2732 @@ Request URL: /users/
 Client IP: 172.28.0.1
 
 
+2020-05-23 04:59:46 Error: [RuntimeException] Unable to find table class for current entity. in /var/www/html/vendor/cakephp/cakephp/src/View/Form/EntityContext.php on line 161
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/View/Form/EntityContext.php:113
+- /var/www/html/vendor/cakephp/cakephp/src/View/Form/ContextFactory.php:72
+- /var/www/html/vendor/cakephp/cakephp/src/View/Form/ContextFactory.php:147
+- /var/www/html/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:2398
+- /var/www/html/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:362
+- /var/www/html/templates/Feeds/feed.php:7
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1163
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1124
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:750
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/edit/1
+Client IP: 172.28.0.1
+
+
+2020-05-23 05:00:08 Error: [RuntimeException] Unable to find table class for current entity. in /var/www/html/vendor/cakephp/cakephp/src/View/Form/EntityContext.php on line 161
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/View/Form/EntityContext.php:113
+- /var/www/html/vendor/cakephp/cakephp/src/View/Form/ContextFactory.php:72
+- /var/www/html/vendor/cakephp/cakephp/src/View/Form/ContextFactory.php:147
+- /var/www/html/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:2398
+- /var/www/html/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:362
+- /var/www/html/templates/Feeds/feed.php:7
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1163
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1124
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:750
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/users/login
+Client IP: 172.28.0.1
+
+
+2020-05-23 06:54:52 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:54:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:54:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:54:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:13 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:18 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:38 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:42 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 06:56:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:34 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:38 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:52 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:02:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/wqqwqwwq.jpg
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:03:26 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/users/login
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:03:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/users/login
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:03:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/users/login
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:03:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/users/login
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:03:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/wqqwqwwq.jpg
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:04:04 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/edit/50
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/edit/50
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/edit/50
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/edit/50
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/wqqwqwwq.jpg
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:04:16 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:19 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/wqqwqwwq.jpg
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:04:25 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/wqqwqwwq.jpg
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:04:33 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:04:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 07:08:34 Error: [Laminas\Diactoros\Exception\UploadedFileErrorException] Cannot retrieve stream due to upload error: The uploaded file exceeds the upload_max_filesize directive in php.ini in /var/www/html/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 26
+Stack Trace:
+- /var/www/html/vendor/laminas/laminas-diactoros/src/UploadedFile.php:176
+- /var/www/html/src/Controller/FeedsController.php:49
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:10:19 Error: [Laminas\Diactoros\Exception\UploadedFileErrorException] Cannot retrieve stream due to upload error: The uploaded file exceeds the upload_max_filesize directive in php.ini in /var/www/html/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 26
+Stack Trace:
+- /var/www/html/vendor/laminas/laminas-diactoros/src/UploadedFile.php:176
+- /var/www/html/src/Controller/FeedsController.php:49
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:24:52 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'message' doesn't have a default value in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2022
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1914
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1815
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1515
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1516
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1816
+- /var/www/html/src/Controller/FeedsController.php:52
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:27:21 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:28:02 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'message' doesn't have a default value in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2022
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1914
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1815
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1515
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1516
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1816
+- /var/www/html/src/Controller/FeedsController.php:52
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:28:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'message' doesn't have a default value in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2022
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1914
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1815
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1515
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1516
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1816
+- /var/www/html/src/Controller/FeedsController.php:52
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:30:04 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:30:33 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:33:15 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:36:18 Error: [Laminas\Diactoros\Exception\UploadedFileErrorException] Cannot retrieve stream due to upload error: The uploaded file exceeds the upload_max_filesize directive in php.ini in /var/www/html/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 26
+Stack Trace:
+- /var/www/html/vendor/laminas/laminas-diactoros/src/UploadedFile.php:176
+- /var/www/html/src/Controller/FeedsController.php:49
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:41:00 Error: [Laminas\Diactoros\Exception\UploadedFileErrorException] Cannot retrieve stream due to upload error: The uploaded file exceeds the upload_max_filesize directive in php.ini in /var/www/html/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 26
+Stack Trace:
+- /var/www/html/vendor/laminas/laminas-diactoros/src/UploadedFile.php:176
+- /var/www/html/src/Controller/FeedsController.php:49
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:41:36 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:42:14 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:53:22 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:58:44 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 07:59:45 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:00:19 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:04:25 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:16:03 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:17:46 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:18:43 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:23:33 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:30:12 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:34:45 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 08:35:34 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:00:23 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:03:39 Error: [Error] Cannot access private property Laminas\Diactoros\UploadedFile::$error in /var/www/html/src/Controller/FeedsController.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:04:14 Error: [Error] Cannot use object of type Laminas\Diactoros\UploadedFile as array in /var/www/html/src/Controller/FeedsController.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:05:39 Error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::toArra() in /var/www/html/src/Controller/FeedsController.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:06:04 Error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::toArray() in /var/www/html/src/Controller/FeedsController.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:23:18 Error: [Error] Call to a member function empty() on array in /var/www/html/src/Controller/FeedsController.php on line 43
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:35:30 Error: [Error] Call to a member function empty() on array in /var/www/html/src/Controller/FeedsController.php on line 43
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:36:37 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:37:09 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:55:01 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:42
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 09:56:38 Error: [Error] Cannot access private property Laminas\Diactoros\UploadedFile::$error in /var/www/html/src/Controller/FeedsController.php on line 41
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:01:22 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/src/Controller/FeedsController.php on line 41
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:01:59 Error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::toString() in /var/www/html/src/Controller/FeedsController.php on line 41
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:08:09 Error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::toString() in /var/www/html/src/Controller/FeedsController.php on line 41
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:10:11 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:43
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:20:49 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 97
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:78
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php:558
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2754
+- /var/www/html/src/Controller/FeedsController.php:40
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/feed
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:22:39 Error: [Error] Call to a member function getClientFilename() on string in /var/www/html/src/Controller/FeedsController.php on line 80
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:23:23 Error: [Error] Call to a member function getClientFilename() on string in /var/www/html/src/Controller/FeedsController.php on line 80
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:24:02 Error: [Error] Call to a member function getClientFilename() on string in /var/www/html/src/Controller/FeedsController.php on line 80
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:32:38 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:34:03 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:34:47 Error: [Error] Call to a member function getClientFilename() on string in /var/www/html/src/Controller/FeedsController.php on line 80
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:36:44 Error: [Error] Call to a member function moveTo() on string in /var/www/html/src/Controller/FeedsController.php on line 84
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:38:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:49:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:49:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:54:19 Warning: Warning (2): unlink(/var/www/html/webroot/img/): Is a directory in [/var/www/html/src/Controller/FeedsController.php, line 90]
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+unlink - [internal], line ??
+App\Controller\FeedsController::edit() - APP/Controller/FeedsController.php, line 90
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 10:54:20 Error: [TypeError] Argument 1 passed to Cake\Http\Session::_overwrite() must be of the type array, null given, called in /var/www/html/vendor/cakephp/cakephp/src/Http/Session.php on line 491 in /var/www/html/vendor/cakephp/cakephp/src/Http/Session.php on line 537
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Session.php:491
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:112
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:155
+- /var/www/html/src/Controller/FeedsController.php:95
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:54:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 10:54:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 10:54:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 10:54:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 198]
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 198
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-05-23 10:54:49 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:55:31 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/src/Controller/FeedsController.php on line 82
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:56:34 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:56:52 Error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/src/Controller/FeedsController.php on line 82
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /feeds/edit/56
+Referer URL: http://localhost:1236/feeds/edit/56
+Client IP: 172.28.0.1
+
+
+2020-05-23 10:59:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/
+Referer URL: http://localhost:1236/feeds/feed
+Client IP: 172.28.0.1
+
+

@@ -10,6 +10,8 @@ use Cake\ORM\Entity;
  *
  * @property int $id
  * @property string $name
+ * @property int|null $user_id
+ * @property string $imagefilename
  * @property string $message
  * @property \Cake\I18n\FrozenTime|null $create_at
  * @property \Cake\I18n\FrozenTime|null $update_at
@@ -27,6 +29,8 @@ class Feed extends Entity
      */
     protected $_accessible = [
         'name' => true,
+        'user_id' => true,
+        'imagefilename' => true,
         'message' => true,
         'create_at' => true,
         'update_at' => true,

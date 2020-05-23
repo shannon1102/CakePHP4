@@ -37,7 +37,20 @@ class FeedsController extends AppController
         $this->set(compact('email','username'));
         $feedData= $this->Feeds->newEmptyEntity();
         if ($this->request->is('post')) {
-            $feedData = $this->Feeds->patchEntity($feedData, $this->request->getData());  
+            $feedData = $this->Feeds->patchEntity($feedData, $this->request->getData()); 
+        if(!$feedData->getErrors)
+        {
+            $image=$this->request->getData('imagefilename');
+            $imgName =$image->getClientFilename();
+           
+            $imgPath= WWW_ROOT.'img'.DS.$imgName;
+            if($imgName)
+            {
+                $image->moveTo($imgPath);
+                $feedData->imagefilename=$imgName;
+            }
+
+        }          
             if ($this->Feeds->save($feedData)) {
                 $this->Flash->success(__('The message has been saved.'));
 
@@ -62,6 +75,17 @@ class FeedsController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
            $feed = $this->Feeds->patchEntity($feed, $this->request->getData());
            $feed->update_at  =  $currentDateTime;
+           if(!$feed->getErrors)
+           {
+               $image=$this->request->getData('change_image');
+               $imgName =$image->getClientFilename();
+               $imgPath= WWW_ROOT.'img'.DS.$imgName;
+               if($imgName)
+               {
+                   $image->moveTo($imgPath);
+                   $feed->imagefilename=$imgName;
+               }
+           }         
             if ($this->Feeds->save($feed)) {
                 $this->Flash->success(__('The feed has been saved.'));
 
