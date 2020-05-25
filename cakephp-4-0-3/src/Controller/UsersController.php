@@ -41,10 +41,12 @@ class UsersController extends AppController
         if($this->request->is('post'))
         {
             $user = $this->Users->find('all', ['conditions' => ['Users.email'=>$ipEmail, 'Users.password'=>$ipPass]])->first();
+         
             if($user != NULL)
             {
                  $haha =$user->toArray();
                  $loggedName= $haha['name'];
+                 $session->write('userID',$haha['id']);
                  $session->write('email',$ipEmail);
                  $session->write('username',$loggedName);
                 return $this->redirect(["controller"=>"Feeds","action"=>"feed"]);              
@@ -55,7 +57,6 @@ class UsersController extends AppController
                 return $this->redirect(["controller"=>"Users","action"=>"login"]);
             }
         }
-       // $this->set(compact(['ipEmail','ipPass']));
     }
     public function logout()
     {

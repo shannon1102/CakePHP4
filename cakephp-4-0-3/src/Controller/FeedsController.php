@@ -3,15 +3,9 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-use function PHPSTORM_META\type;
+use phpDocumentor\Reflection\Types\Boolean;
 
-/**
- * Feeds Controller
- *
- * @property \App\Model\Table\FeedsTable $Feeds
- *
- * @method \App\Model\Entity\Feed[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
- */
+use function PHPSTORM_META\type;
 class FeedsController extends AppController
 {
 
@@ -31,22 +25,35 @@ class FeedsController extends AppController
         $session = $this->getRequest()->getSession();
         $email = $session->read('email');
         $username =$session->read('username');
+        $userID=$session->read('userID');
        
         if($session->check('email'))
         {
         $this->set(compact('email','username'));
         $feedData= $this->Feeds->newEmptyEntity();
         if ($this->request->is('post')) {
-            $feedData = $this->Feeds->patchEntity($feedData, $this->request->getData()); 
+            $temp1 =($this->request->getData('imagefilename'));
+            //  //pr(($temp1->getError()));
+            //  pr($this->request->getData()) ;
+            //  exit;
+            if($temp1->getError() == 4)
+            {
+               $temp2 = $this->request->getData();
+               unset($temp2['imagefilename']);
+               $feedData = $this->Feeds->patchEntity($feedData, $temp2);
+            }else $feedData = $this->Feeds->patchEntity($feedData, $this->request->getData());
+            $feedData->user_id= $userID;
+           // $user = $this->Users->find('all', ['conditions' => ['Users.email'=>$this->request->getData('email')]])->first();
         if(!$feedData->getErrors)
         {
             $image=$this->request->getData('imagefilename');
             $imgName =$image->getClientFilename();
-           
+            
             $imgPath= WWW_ROOT.'img'.DS.$imgName;
             if($imgName)
             {
                 $image->moveTo($imgPath);
+                
                 $feedData->imagefilename=$imgName;
             }
 
@@ -87,11 +94,11 @@ class FeedsController extends AppController
                }
            }         
             if ($this->Feeds->save($feed)) {
-                $this->Flash->success(__('The feed has been saved.'));
+                $this->Flash->success(__('The message has been saved.'));
 
                 return $this->redirect(['action' => 'feed']);
             }
-            $this->Flash->error(__('The feed could not be saved. Please, try again.'));
+            $this->Flash->error(__('The messagege could not be saved. Please, try again.'));
         }
         $this->set(compact('feed'));
     }
