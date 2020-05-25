@@ -13,7 +13,6 @@
 ?>
     <?= $this->Form->button(__('Send')) ?>     <?= $this->Html->link('Logout', ['controller'=>'Users','action' => 'logout'],['class' => 'button']) ?>
     <?= $this->Form->end() ?>
-    
 <table>
 <tr>
     <th>Name</th>
@@ -23,7 +22,7 @@
     <th>Update_Date</th>
     <th>Actions</th>
 </tr>
-<?php foreach ($loadMess as $feed): ?>
+<?php foreach ($loadMsg as $feed): ?>
 <tr>
     <td><?= ($feed->name) ?></td>
     <td><?= ($feed->message) ?></td>

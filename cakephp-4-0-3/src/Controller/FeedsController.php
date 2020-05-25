@@ -1,14 +1,10 @@
 <?php
 declare(strict_types=1);
-
 namespace App\Controller;
-
 use phpDocumentor\Reflection\Types\Boolean;
-
 use function PHPSTORM_META\type;
 class FeedsController extends AppController
 {
- 
     private $IS_NO_INPUT_FILE=4;
     public function delete($id =null)
     {
@@ -57,8 +53,8 @@ class FeedsController extends AppController
             }
             $this->Flash->error(__('The message could not be saved. Please, try again.'));
         } 
-        $loadMess = $this->Feeds->find('all',['order' => 'Feeds.id DESC']);      
-        $this->set(compact('loadMess','feedData'));
+        $loadMsg = $this->Feeds->find('all',['order' => 'Feeds.id DESC']);      
+        $this->set(compact('loadMsg','feedData'));
         }
         else return $this->redirect(['action'=>'feed']);
     }
@@ -87,23 +83,4 @@ class FeedsController extends AppController
         }
         $this->set(compact('feed'));
     }
-    public function index1()
-    {
-        $van= $this->Feeds->find('all',['conditions'=>['id'=>20]]);
-        $this->set('van',$van);
-    }
-    public function testindex3()
-    {
-      $feedData=null; 
-        if ($this->request->is('post')) {
-        $feedData= $this->Feeds->newEntity($this->request->getData());
-            if ($this->Feeds->save($feedData)) {
-                $this->Flash->success(__('The feed has been saved.'));
-                return $this->redirect(['action' => 'feed']);
-            }
-            $this->Flash->error(__('The feed could not be saved. Please, try again.'));
-        }
-        $loadMess = $this->Feeds->find('all',['order' => 'Feeds.id DESC']);    
-        $this->set(compact('loadMess','feedData'));
-    } 
 }

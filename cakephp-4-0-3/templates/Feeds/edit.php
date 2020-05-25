@@ -1,11 +1,5 @@
 <?php
-/**
- * @var \App\View\AppView $this
- * @var \App\Model\Entity\Feed $feed
- */
-
 use Cake\Chronos\Date;
-
 ?>       
  <?= $this->Html->link(__('List Feeds'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
  <?= $this->Form->create($feed,['type'=>'file']) ?>

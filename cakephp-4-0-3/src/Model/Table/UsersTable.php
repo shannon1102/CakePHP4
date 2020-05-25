@@ -26,24 +26,20 @@ class UsersTable extends Table
         $validator
             ->integer('id')
             ->allowEmptyString('id', null, 'create');
-
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
             ->notEmptyString('email');
-
         $validator
             ->scalar('password')
             ->maxLength('password', 255)
             ->requirePresence('password', 'create')
             ->notEmptyString('password');
-
         $validator
             ->scalar('name')
             ->maxLength('name', 255)
             ->requirePresence('name', 'create')
             ->notEmptyString('name');
-
         return $validator;
     }
     public function buildRules(RulesChecker $rules): RulesChecker
