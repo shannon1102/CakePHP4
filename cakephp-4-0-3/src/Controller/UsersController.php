@@ -1,17 +1,7 @@
 <?php
 declare(strict_types=1);
-
 namespace App\Controller;
-
 use phpDocumentor\Reflection\Types\Null_;
-
-/**
- * Users Controller
- *
- * @property \App\Model\Table\UsersTable $Users
- *
- * @method \App\Model\Entity\User[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
- */
 class UsersController extends AppController
 {
     public function regist()
@@ -26,7 +16,6 @@ class UsersController extends AppController
                 return $this->redirect(["contrller"=>"Users","action"=>"login"]);
             }
             $this->Flash->error(__("Regist is not successfull.May be this name is USED"));
-
         }
         $this->set('new',$new);
 
@@ -44,11 +33,11 @@ class UsersController extends AppController
          
             if($user != NULL)
             {
-                 $haha =$user->toArray();
-                 $loggedName= $haha['name'];
-                 $session->write('userID',$haha['id']);
-                 $session->write('email',$ipEmail);
-                 $session->write('username',$loggedName);
+                $haha =$user->toArray();
+                $loggedName= $haha['name'];
+                $session->write('userID',$haha['id']);
+                $session->write('email',$ipEmail);
+                $session->write('username',$loggedName);
                 return $this->redirect(["controller"=>"Feeds","action"=>"feed"]);              
             }
             else 

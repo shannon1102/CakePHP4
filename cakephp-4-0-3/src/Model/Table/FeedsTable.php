@@ -7,19 +7,6 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
-
-/**
- * Feeds Model
- *
- * @method \App\Model\Entity\Feed get($primaryKey, $options = [])
- * @method \App\Model\Entity\Feed newEntity($data = null, array $options = [])
- * @method \App\Model\Entity\Feed[] newEntities(array $data, array $options = [])
- * @method \App\Model\Entity\Feed|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\Feed saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\Feed patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
- * @method \App\Model\Entity\Feed[] patchEntities($entities, array $data, array $options = [])
- * @method \App\Model\Entity\Feed findOrCreate($search, callable $callback = null, $options = [])
- */
 class FeedsTable extends Table
 {
     /**
@@ -54,10 +41,9 @@ class FeedsTable extends Table
             ->notEmptyString('name');
 
         $validator
-            ->scalar('imagefilename')
-            // ->maxLength('imagefilename', 255)
-            // // ->requirePresence('imagefilename', 'create')
-            ->allowEmptyFile('imagefilename');
+            ->scalar('filename')
+            ->maxLength('filename', 255)
+            ->allowEmptyFile('filename');
 
         $validator
             ->scalar('message')
